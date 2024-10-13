@@ -1,0 +1,104 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #000; /* Fundo do cabeçalho preto */
+    color: white;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #116615; /* Efeito hover dos links */
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  /* Animações */
+  .animate {
+    opacity: 0;
+    transform: translateX(-100px); /* Default animation from left */
+    transition: all 0.6s ease-out;
+  }
+  
+  .animate.visible {
+    opacity: 1;
+    transform: translateX(0); /* Animates to center */
+  }
+  
+  .fade-in-bottom {
+    transform: translateY(100px); /* Animation from bottom */
+  }
+  
+  .fade-in-left {
+    transform: translateX(-100px); /* Animation from left */
+  }
+  
+  /* Estilos das seções */
+  section {
+    background-color: rgb(44, 44, 44); /* Fundo cinza escuro para as seções */
+    padding: 20px; /* Adiciona padding para as seções */
+  }
+  
+  .text-white {
+    color: #ffffff; /* Texto branco */
+  }
+  
+  .text-dark {
+    color: #ffffff; /* Mantendo texto claro em fundo escuro */
+  }
+  
+ /* Estilos adicionais para imagens */
+.titulos-conquistas img {
+    max-width: 100%; /* Ajusta o tamanho das imagens para ocupar 100% da largura disponível */
+    border-radius: 5%; /* Bordas arredondadas em 5% */
+    display: block; /* Garante que as imagens sejam tratadas como bloco */
+    margin: 20px; /* Centraliza as imagens */
+}
+
+ 
+  /* Estilos do footer */
+  footer {
+    background-color: #000000; /* Cor de fundo escuro do footer */
+    padding: 20px; /* Espaçamento interno do footer */
+    text-align: center; /* Alinhamento central do texto */
+  }
+  
+  footer a {
+    color: #ffffff; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+  }
+  
+  footer a:hover {
+    color: #116615;
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+  }
+
+  .card {
+    height: 100%; /* Faz o card ocupar 100% da altura do contêiner */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui o espaço dentro do card */
+  }
+  
+  .card-img-top {
+    height: 200px; /* Ajuste a altura da imagem conforme necessário */
+    object-fit: cover; /* Corta a imagem se necessário, mantendo a proporção */
+  }
+  
